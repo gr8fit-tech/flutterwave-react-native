@@ -20,8 +20,9 @@ jobs:
           scope: "@gr8fit-tech"
 
       - name: Login to GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.ADMIN_PAT }}" > ~/.npmrc
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
         
       - run: npm install
       - run: npm ci
       - run: npm publish
+
