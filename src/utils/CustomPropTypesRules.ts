@@ -6,7 +6,7 @@ export const PaymentOptionsPropRule = (options: Array<string>) => (props:{[k: st
   // if not an array of payment options
   if (typeof props[propName] !== 'string') {
     return new Error(
-      '"payment_methods" should be a string',
+      '"payment_methods" should be a string.',
     );
   }
   const paymentOptionsList = props[propName].split(',');
