@@ -1,7 +1,7 @@
 on:
     push:
       branches:
-        - main
+        - master
 name: release-please
 jobs:
     release-please:
@@ -15,7 +15,7 @@ jobs:
             release-type: node
             package-name: release-please-action
     deploy:
-      uses: 3sidedcube/serverless-config/.github/workflows/main.yaml@main
+      uses: gr8fit-tech/flutterwave-react-native/.github/workflows/master.yaml@main
       needs: [release-please]
       if: ${{ needs.release-please.outputs.releases_created }}
       secrets: inherit
