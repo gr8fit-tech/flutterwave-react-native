@@ -1,6 +1,6 @@
 {
   "name": "flutterwave-react-native",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The official React-Native library for Flutterwave for business v2 and v3 APIs.",
   "main": "dist/index.js",
   "scripts": {
@@ -13,6 +13,9 @@
     "commit": "npx git-cz",
     "release": "semantic-release",
     "set-example": "npm run build && node setExample.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist"
@@ -64,11 +67,11 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-webview": ">=6.0.2"
   },
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react-native-webview": ">=6.0.2"
+    "prop-types": "^15.6.2"
   },
   "config": {
     "commitizen": {
