@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/gr8fit-tech/flutterwave-react-native/compare/v1.3.1...v1.3.2) (2024-06-22)
+
+
+### Bug Fixes
+
+* fix ([31872aa](https://github.com/gr8fit-tech/flutterwave-react-native/commit/31872aabde20f753a5b69e264901a4bb2df752e1))
+
 ## [1.3.1](https://github.com/gr8fit-tech/flutterwave-react-native/compare/v1.3.0...v1.3.1) (2024-06-22)
 
 
