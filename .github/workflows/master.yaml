@@ -19,9 +19,9 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: "@gr8fit-tech"
 
-      - uses: jgierer12/npm-auth-gpr@v1
-        with:
-          token: ${{ secrets.ADMIN_PAT }}
+      - name: Login to GitHub Packages
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+        
       - run: npm install
       - run: npm ci
       - run: npm publish
