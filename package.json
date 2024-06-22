@@ -20,7 +20,7 @@
   "files": [
     "dist"
   ],
-  "author": "Flutterwave Developers",
+  "author": "Flutterwave Developers (Forked by Gr8fit)",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
