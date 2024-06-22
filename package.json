@@ -20,13 +20,6 @@
   "files": [
     "dist"
   ],
-  "keywords": [
-    "Flutterwave",
-    "RavePay",
-    "React-native-payment",
-    "Payment",
-    "Payments"
-  ],
   "author": "Flutterwave Developers",
   "license": "MIT",
   "devDependencies": {
