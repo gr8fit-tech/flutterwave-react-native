@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/gr8fit-tech/flutterwave-react-native/compare/v1.1.0...v1.2.0) (2024-06-22)
+
+
+### Features
+
+* upgrade ([918d9dd](https://github.com/gr8fit-tech/flutterwave-react-native/commit/918d9dd0bbceae6bac4bb36bac0e23bd1d1a51d6))
+
 ## [1.1.0](https://github.com/gr8fit-tech/flutterwave-react-native/compare/v1.0.0...v1.1.0) (2024-06-22)
 
 
