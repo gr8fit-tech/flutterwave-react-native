@@ -15,7 +15,7 @@ jobs:
             release-type: node
             package-name: release-please-action
     deploy:
-      uses: gr8fit-tech/flutterwave-react-native/.github/workflows/master.yaml@main
+      uses: gr8fit-tech/flutterwave-react-native/.github/workflows/master.yaml@master
       needs: [release-please]
       if: ${{ needs.release-please.outputs.releases_created }}
       secrets: inherit
