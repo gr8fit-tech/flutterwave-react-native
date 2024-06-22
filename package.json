@@ -1,6 +1,6 @@
 {
   "name": "@gr8fit-tech/flutterwave-react-native",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The official React-Native library for Flutterwave for business v2 and v3 APIs.",
   "main": "dist/index.js",
   "scripts": {
